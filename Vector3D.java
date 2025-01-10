@@ -11,6 +11,16 @@ public class Vector3D {
         this.z = z;
     }
 
+    public static void main(String[] args) {
+        Vector3D vector1 = new Vector3D(10., 7., 8.);
+        System.out.println("X: " + vector1.getX());
+        System.out.println("Y: " + vector1.getY());
+        System.out.println("Z: " + vector1.getZ());
+        System.out.println(vector1.toString());
+        System.out.println("Magnitude: " + vector1.getMagnitude());
+        System.out.println("Normalized Vector: " + vector1.normalize());
+    }
+
     public double getX() {
         return x;
     }
