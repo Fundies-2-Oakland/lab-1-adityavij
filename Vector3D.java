@@ -19,6 +19,14 @@ public class Vector3D {
         System.out.println(vector1.toString());
         System.out.println("Magnitude: " + vector1.getMagnitude());
         System.out.println("Normalized Vector: " + vector1.normalize());
+
+        Vector3D vector2 = new Vector3D(0., 0., 0.);
+        System.out.println("X: " + vector2.getX());
+        System.out.println("Y: " + vector2.getY());
+        System.out.println("Z: " + vector2.getZ());
+        System.out.println(vector2.toString());
+        System.out.println("Magnitude: " + vector2.getMagnitude());
+        System.out.println("Normalized Vector: " + vector2.normalize());
     }
 
     public double getX() {
